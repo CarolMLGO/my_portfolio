@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'my_portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfoliodb',
+        'NAME': 'new_portfoliodb',
         'USER':'postgres',
         'PASSWORD':'198933jone',
         'HOST':'localhost',
@@ -126,7 +126,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-
-
-BLOG_ROOT=os.path.join(BASE_DIR,'writing')
-BLOG_URL='/writing/'
